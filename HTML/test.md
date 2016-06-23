@@ -16,14 +16,16 @@ title="MSN Search">MSN</a>.</p>
 	<tr>语文</tr>
 	<tr>数学</tr>
 </td>
+
 <td>
 	<tr>英语</tr>
 	<tr>科学</tr>
 </td>
+
 <td>
 	<tr>体育</tr>
 	<tr>音乐</tr>
-</td>
+</td>    
 **无序列表**
 * Red
 * Green
@@ -32,21 +34,21 @@ title="MSN Search">MSN</a>.</p>
 1.Bird    
 2.McHale    
 3.Parish    
-#分隔符#
------------------------
-#引用#
+#分隔符
+* * *        
+#引用
 *   A list item with a blockquote:
 
     > This is a blockquote
-    > inside a list item.
+    > inside a list item.    
    1986\. What a great season.    
-#区段元素#
- ##链接##：
+#区段元素
+ ##链接：
     >This is [an example](http://example.com/ "Title") inline link.
 
     >[This link](http://example.net/) has no title attribute.
   * * * * * * * * * * * * * *
-###链接内容定义的形式为：###
+###链接内容定义的形式为：
 
    >* 方括号（前面可以选择性地加上至多三个空格来缩进），里面输入链接文字
    >* 接着一个冒号
@@ -71,6 +73,11 @@ Markdown 使用一种和链接很相似的语法来标记图片，同样也允�
 ![Alt text](/path/to/img.jpg)
 
 ![Alt text](/path/to/img.jpg "Optional title")
+```
+![Alt text](/path/to/img.jpg)
+
+![Alt text](/path/to/img.jpg "Optional title")
+```
 #####详细叙述如下：    
 *一个惊叹号 !
 *接着一个方括号，里面放上图片的替代文字
