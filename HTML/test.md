@@ -27,6 +27,6 @@ title="MSN Search">MSN</a>.</p>
 * Red
 * Green
 * Blue
-1. Bird
-2. McHale
-3. Parish
+1。Bird
+2。McHale
+3。Parish
