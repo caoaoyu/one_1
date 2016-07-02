@@ -1,4 +1,4 @@
-###  <center>JS冒泡事件</center>
+###  JS冒泡事件
 #### 1.冒泡型事件：    
 事件按照从最特定的事件目标到最不特定的事件目标(document对象)的顺序触发。    
   IE 5.5: div -> body -> document    
