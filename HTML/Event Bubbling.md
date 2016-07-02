@@ -1,8 +1,8 @@
-###JS冒泡事件
+###  <center>JS冒泡事件</center>
 #### 1.冒泡型事件：    
-事件按照从最特定的事件目标到最不特定的事件目标(document对象)的顺序触发。
-  IE 5.5: div -> body -> document
-  IE 6.0: div -> body -> html -> document
+事件按照从最特定的事件目标到最不特定的事件目标(document对象)的顺序触发。    
+  IE 5.5: div -> body -> document    
+  IE 6.0: div -> body -> html -> document    
   Mozilla 1.0: div -> body -> html -> document -> window    
 
 #### 2.支持W3C标准的浏览器在添加事件时用addEventListener(event,fn,useCapture)方法    
