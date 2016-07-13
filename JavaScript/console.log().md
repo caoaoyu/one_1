@@ -10,7 +10,9 @@
 >```
 >console.log("Sample log");
 >```
->console.log()可以接受任何字符串、数字和JavaScript对象。与alert()函数类似，console.log()也可以接受换行符\n以及制表符\t。console.log()语句所打印的调试信息可以在浏览器的调试控制台中看到。不同的浏览器中console.log()行为可能会有所不同    
+>console.log()可以接受任何字符串、数字和JavaScript对象。与alert()函数类似，console.log()也可以接受换行符\n以及制表符\t。console.log()语句所打印的调试信息可以在浏览器的调试控制台中看到。不同的浏览器中console.log()行为可能会有所不同   
+
+ 
 
 ######二、兼容没有调试控制台的浏览器     
 
