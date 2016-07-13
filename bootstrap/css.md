@@ -1,4 +1,4 @@
-###**ootstrap：Web前端开发框架**
+###**bootstrap：Web前端开发框架**
 
 ####Bootstrap 是一个用于快速开发 Web 应用程序和网站的前端框架。Bootstrap 是基于 HTML、CSS、JAVASCRIPT 的。由 Twitter 的 Mark Otto 和 Jacob Thornton 开发的。Bootstrap 是 2011 年八月在 GitHub 上发布的开源产品。
 
