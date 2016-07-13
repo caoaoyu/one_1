@@ -10,9 +10,10 @@
 >```
 >console.log("Sample log");
 >```
->console.log()可以接受任何字符串、数字和JavaScript对象。与alert()函数类似，console.log()也可以接受换行符\n以及制表符\t。console.log()语句所打印的调试信息可以在浏览器的调试控制台中看到。不同的浏览器中console.log()行为可能会有所不同
+>console.log()可以接受任何字符串、数字和JavaScript对象。与alert()函数类似，console.log()也可以接受换行符\n以及制表符\t。console.log()语句所打印的调试信息可以在浏览器的调试控制台中看到。不同的浏览器中console.log()行为可能会有所不同    
 
-######二、兼容没有调试控制台的浏览器
+######二、兼容没有调试控制台的浏览器     
+
 >对于缺少调试控制台的老版本浏览器，window中的console对象并不存在，因此直接使用console.log()语句可能会在浏览器内部造成错误(空指针错误)，并最终导致某些老版本浏览器的崩溃。为了解决这一问题，可以人为定义console对象，并声明该console对象的log函数为空函数；这样，当console.log()语句执行时，这些老版本的浏览器将不会做任何事情：
 >```
 >if(!window.console){
