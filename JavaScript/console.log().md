@@ -18,7 +18,7 @@
   window.console = {log : function(){}};
 }
 >```
->不过，在多数情况下，没有必要去做这种工作  console.log()等调试代码应当从最终的产品代码中删除掉。
+>不过，在多数情况下，没有必要去做这种工作  console.log()等调试代码应当从最终的产品代码中删除掉。    
 ######三、使用参数
 >与alert()函数类似，console.log()也可以接受变量并将其与别的字符串进行拼接：
 >```
@@ -32,7 +32,7 @@ var years = 42;
 console.log("%s is %d years old.", people, years);
 >```
 >代码的执行结果为：”Alex is 42 years old.”
-######四、使用其它日志级别
+######四、使用其它日志级别    
 >除了console.log()，Firebug(火虫)还支持多种不同的日志级别：debug、info、warn、error。
 >```
 >Use different logging level
@@ -42,5 +42,5 @@ console.info("Info level");
 console.warn("Warn level");
 console.error("Error level");
 >```
->从Firebug控制台中可以看到，不同日志级别的打印信息，其颜色和图标是不一样的；同时，可以在控制台中选择不同的日志级别来对这些信息进行过滤
+>从Firebug控制台中可以看到，不同日志级别的打印信息，其颜色和图标是不一样的；同时，可以在控制台中选择不同的日志级别来对这些信息进行过滤    
 >![Alt text](./不同日志级别.png)
